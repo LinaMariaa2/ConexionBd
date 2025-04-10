@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "backend/dist",
+    "rootDir": "./src",
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "strict": false,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true 
+
+  },
+  "include": ["src/**/*.ts"]
+}
+// Los decoradores son una característica avanzada que permite modificar clases, métodos, 
+// propiedades, parámetros y accesores de una clase de manera declarativa.
